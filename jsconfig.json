@@ -2,7 +2,10 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "scripts": {
+        "test": "vitest"
+      }
   },
   "exclude": ["node_modules", "dist"]
 }
